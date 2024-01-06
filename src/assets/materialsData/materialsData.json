@@ -1,0 +1,123 @@
+[
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/wood-picket.jpg",
+       "txt":"Wood Picket",
+       "price" : 10 ,
+       "Details": {
+          "txt_1":"Wide variety and do-it-yourself installation allows for customization",
+          "txt_2":"Pickets available in Cedar, Pressure Treated, and Natural Wood",
+          "txt_3":"Installed heights range from 4' to 8'",
+          "txt_4":"Add your own stain or paint for the custom look you desire"
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/wood.jpg",
+       "txt":"Wood Panels",
+       "price" : 50 ,
+       "Details": {
+          "txt_1":"Wide variety and easy installation",
+          "txt_2":"Pre-Assembled Panels available in Cedar, Pressure Treated, and Natural Wood",
+          "txt_3":"Installed heights range from 4' to 6'",
+          "txt_4":"Add your own stain or paint for the custom look you desire"
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/vinyl.jpg",
+       "txt":"Vinyl Panels",
+       "price" : 20 ,
+       "Details": {
+          "txt_1":"Low maintenance",
+          "txt_2":"Available in white, tan, and gray",
+          "txt_3":"Picket style installed heights of 3' and 4'",
+          "txt_4":"Privacy Panel installed heights of 4' and 6'"
+       }
+      },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/item/chain/type/ChainLink.jpg",
+       "txt":"Chain Link",
+       "price" : 80 ,
+       "Details": {
+          "txt_1":"Quickest installation option",
+          "txt_2":"Available in galvanized or black vinyl coated rolls",
+          "txt_3":"Standard installed heights of 3'6', ', '5, or 6'",
+          "txt_4":"Commercial installed heights of 6' to 8'"
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/simtek.jpg",
+       "txt":"Wood Picket",
+       "price" : 75 ,
+       "Details": {
+          "txt_1":"Metal fabric with wood framing provides a unique look",
+          "txt_2":"Select your wood framing and metal fencing",
+          "txt_3":"Post spacing estimated at 8 feet on center",
+          "txt_4":"Chose Chain-link or Welded wire fabric"
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/metal.jpg",
+       "txt":"Sim Tek Panels",
+       "price" : 54 ,
+       "Details": {
+          "txt_1":"Stone Look or Wood Look",
+          "txt_2":"Low maintenance",
+          "txt_3":"25 year warranty",
+          "txt_4":"Extremely durable"
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/rail.jpg",
+       "txt":"Metal Panels",
+       "price" : 87 ,
+       "Details": {
+          "txt_1":"Low maintenance",
+          "txt_2":"Pre-Assembled Panels available in aluminum or steel",
+          "txt_3":"Offered in a variety of heights and styles",
+          "txt_4":""
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/composite.jpg",
+       "txt":"Rail Fences",
+       "price" : 92 ,
+       "Details": {
+          "txt_1":"Low maintenance",
+          "txt_2":"Easy installation in almost any landscape, even in extreme climates",
+          "txt_3":"Offered in a variety of heights and styles",
+          "txt_4":""
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/pro-rib.jpg",
+       "txt":"Composite Picket",
+       "price" : 27 ,
+       "Details": {
+          "txt_1":"Low maintenance",
+          "txt_2":"No painting, staining, or sealing needed",
+          "txt_3":"Very durable",
+          "txt_4":"Installed heights of 6’ and 8'e"
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/wood-picket-horizontal.jpg",
+       "txt":"Steel Panels",
+       "price" : 40 ,
+       "Details": {
+          "txt_1":"Choose from 25+ different colors",
+          "txt_2":"6' high fence",
+          "txt_3":"Includes AC2® brand treated posts and stringer material",
+          "txt_4":"Low maintenence"
+       }
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/type/metal-fabric.jpg",
+       "txt":"Horizontal Wood Picket",
+       "price" : 45 ,
+       "Details": {
+          "txt_1":"Horizontal pickets provide a modern appearance",
+          "txt_2":"Includes 1x6x8 horizontal fence boards",
+          "txt_3":"Post spacing estimated at 8 feet on center",
+          "txt_4":"Estimate includes 1x6 at post to cover the joint"
+       }
+    }
+]

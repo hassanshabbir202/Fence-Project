@@ -1,0 +1,37 @@
+[
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/item/wood/1731374_4'%20x%208'%20Cedar%20Dog%20Ear%20Fence%20Panel.jpg",
+       "txt":"4'x8' Cedar Dog Ear",
+       "price":12
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/item/wood/1731378_6'%20x%208'%20Dog-Ear%20Cedar%20Fence%20Panel.jpg",
+       "txt":"6'x8' Cedar Dog Ear",
+       "price":13
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/item/wood/1731271_5'%204%20x%208'%20Cedar%20Diamond%20Lattice%20Top%20Fence%20Panel.jpg",
+       "txt":"5'4'x8' Cedar Lattice Top",
+       "price":14
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/item/wood/1731145_6'%20x%208'%20Dog-Ear%20Pressure%20Treated%20Fence%20Panel.jpg",
+       "txt":"6'x8' Treated Dog Ear",
+       "price":15
+    },
+    {   
+       "img" : "https://designit.menards.com/media/Fence/selection/item/wood/1731146_6'%20x%208'%20Shadow%20Box%20AC2%C2%AE%20Treated%20Fence%20Panel.jpg",
+       "txt":"6'x8' Treated Shadow Box",
+       "price":19
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/item/wood/1731188_6'%20x%208'%20Stockade%20Natural%20Wood%20Fence%20Panel.jpg",
+       "txt":"6'x8' Natural Stockade",
+       "price":18
+    },
+    {
+       "img" : "https://designit.menards.com/media/Fence/selection/item/wood/1731491_4'%20x%208'%20French%20Gothic%20Cedar%20Spaced%20Picket%20Fence%20Panel.jpg",
+       "txt":"Cedar French Gothic",
+       "price":50
+    }
+]

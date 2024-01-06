@@ -1,0 +1,72 @@
+[
+    {
+       "store" : "PORT HURON",
+       "adress": "45500 MARKETPLACE BLVD CHESTERFIELD, MI 48051",
+       "distance":"30.4 miles",
+       "phone" : "586-598-5060",
+       "ptCode" : "54353"
+    },
+    {
+       "store" : "CHESTERFIELD",
+       "adress": "45500 MARKETPLACE BLVD",
+       "distance":"30.4 miles",
+       "phone" : "586-598-5060",
+       "ptCode" : "54353"
+    },
+    {
+       "store" : "LAKE ORION",
+       "adress": "465 BROWN RD LAKE ORION, MI 48359",
+       "distance":"39.5 miles",
+       "phone" : "248-393-3756",
+       "ptCode" : "54353"
+    },
+    {
+       "store" : "WARREN",
+       "adress": "32501 VAN DYKE AVE WARREN, MI 48093",
+       "distance":"40.4 miles",
+       "phone" : "586-795-0028",
+       "ptCode" : "54353"
+    },
+    {
+       "store" : "BLOOMFIELD HILLS",
+       "adress": "1901 S TELEGRAPH RD BLOOMFIELD HILLS, MI 48302",
+       "distance":"44.1 miles",
+       "phone" : "248-456-0577",
+       "ptCode" : "54353"
+    },
+    {
+       "store" : "DAVISON",
+       "adress": "7410 E COURT ST DAVISON, MI 48423",
+       "distance":"44.6 miles",
+       "phone" : "810-653-8618",
+       "ptCode" : "48006"
+    },
+    {
+       "store" : "CLIO",
+       "adress": "11357 N LINDEN RD CLIO, MI 48420",
+       "distance":"56 miles",
+       "phone" : "810-686-1042",
+       "ptCode" : "48006"
+    },
+    {
+       "store" : "LIVONIA",
+       "adress": "12701 MIDDLEBELT RD LIVONIA, MI 48150",
+       "distance":"57.6 miles",
+       "phone" : "734-261-1470",
+       "ptCode" : "48006"
+    },
+    {
+       "store" : "WIXOM",
+       "adress": "10400 ASSEMBLY PARK DR WIXOM, MI 48393",
+       "distance":"58.1 miles",
+       "phone" : "248-344-1140",
+       "ptCode" : "48006"
+    },
+    {
+       "store" : "TAYLOR",
+       "adress": "15525 RACHO BLVD TAYLOR, MI 48180",
+       "distance":"66.3 miles",
+       "phone" : "734-287-0817",
+       "ptCode" : "48006"
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+      "img": "https://designit.menards.com/media/Fence/selection/opening.jpg",
+      "txt": "Add Opening"
+    },
+    {
+      "img": "https://designit.menards.com/media/Fence/selection/gates/wood-picket/1731257-gate.jpg",
+      "txt": "Build a Gate",
+      "price":50
+    },
+    {
+      "img": "https://designit.menards.com/media/Fence/selection/remove-selection.jpg",
+      "txt": "Remove Selection"
+    }
+  ]

@@ -1,0 +1,1309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,200;1,500;1,600;1,700;1,800;1,900&display=swap');
+.auth{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.accountheader {
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .createaccountcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .accountbox {
+    border: 1px solid gray;
+    height: 550px;
+    width: 87%;
+    padding: 0rem 2rem;
+  }
+  .twomaindivsincreateaccount {
+    display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+    height: 550px;
+    width: 90%;
+  }
+  .firstcreateaccount {
+    width: 60%;
+  }
+  .secondcreateaccount {
+    margin-right: 6rem;
+    width: 40%;
+  }
+  .accountheader {
+    display: flex;
+    justify-content: center;
+  }
+  .firstaccountheaderdiv {
+    display: flex;
+    align-items: center;
+  }
+  .firstaccountheaderdiv img {
+    height: 50px;
+  }
+  .secondaccountheaderdiv {
+    display: flex;
+    align-items: center;
+  }
+  .twodivcontainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .selectstore {
+    margin-left: 1rem;
+    color: #008938;
+  }
+  #deliver,
+  #credit,
+  #help,
+  #Gifting,
+  .order-track,
+  .rebate-center {
+    margin-left: 1rem;
+    font-size: 14px;
+    font-family: "Poppins";
+  }
+  .hamburgerbox{
+    display: none;
+  }
+  .accountnav {
+    height: 60px;
+    width: 100%;
+    background-color: #2e9459 !important;
+  }
+  
+  #deliver,
+  #credit,
+  #Gifting {
+    border: none;
+    padding: 0.8rem;
+    outline: none;
+    font-size: 13px;
+  }
+  #help {
+    border: none;
+    padding: 0.5rem 0rem;
+    outline: none;
+    font-size: 13px;
+  }
+  .accountnavcenter {
+    display: flex;
+    justify-content: center;
+  }
+  .mainaccountnav {
+    display: flex;
+    align-items: center;
+    padding-top: 0.7rem;
+    width: 89%;
+  }
+  #department,
+  #ProjectCenter,
+  #WeeklyAd,
+  #SignIn {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: none;
+    font-family: "Poppins";
+    padding: 0.5rem 0.8rem;
+  }
+  .divandinput {
+    display: flex;
+    margin-left: 1rem;
+  }
+  .departmentsall {
+    background-color: #f1f1f1 !important;
+    font-size: 13px;
+    padding: 0.4rem 1rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-items: center;
+  }
+  .divandinput input {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-family: "Poppins";
+    width: 600px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .thirdConvenient,
+  .secondsecure,
+  .firstpersonalized {
+    display: flex;
+    align-items: center;
+  }
+  .createaccounmtbtn {
+    width: 51%;
+    background: none;
+    color: #008938;
+    border: none;
+    font-family: "Poppins";
+    cursor: pointer;
+    outline: none;
+    padding: 1rem;
+  }
+  .signinbtn {
+    width: 54%;
+    cursor: pointer;
+    font-family: "Poppins";
+    color: #008938;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 1rem;
+    margin-left: -2rem;
+  }
+  .MENARDS_Text {
+    color: #008938;
+    font-size: 18px;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .requiredfield {
+    color: red;
+    font-size: 12px;
+    margin-left: 1.5rem;
+    margin-top: 1.2rem;
+  }
+  .accountypeheading {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1.2rem;
+  }
+  .accounttype {
+    margin-left: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  .aaccountinputs {
+    margin-top: 0.9rem;
+    font-size: 12px;
+    margin-left: 0rem;
+  }
+  .aaccountinputtwo {
+    margin-left: 0.5rem;
+  }
+  .personal {
+    font-size: 15px;
+    margin-left: 0.2rem;
+  }
+  .business {
+    font-size: 15px;
+    margin-left: 0.2rem;
+  }
+  .firsttwoinputs {
+    display: flex;
+    width: 100%;
+    margin-top: 1.4rem;
+    margin-left: -.5rem;
+  }
+  .businessfirsttwoinputs {
+    display: flex;
+    width: 100%;
+    margin-top: 1.4rem;
+  }
+  .firstnamei {
+    width: 270px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 1rem;
+    margin-left: 1.8rem;
+  }
+  .businessfirstnamei {
+    width: 270px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 1rem;
+    margin-left: 1.8rem;
+  }
+  .lastnamei {
+    width: 270px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+  }
+  .businesslastnamei {
+    width: 270px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+  }
+  .firstinput {
+    display: flex;
+    flex-direction: column;
+  }
+  .businessfirstinput {
+    display: flex;
+    flex-direction: column;
+  }
+  .secondinput {
+    display: flex;
+    flex-direction: column;
+  }
+  .businesssecondinput {
+    display: flex;
+    flex-direction: column;
+  }
+  .lastnamelabel {
+    font-size: 13px;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  .businesslastnamelabel {
+    font-size: 13px;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  .emaillabel,
+  .businessemaillabel {
+    font-size: 13px;
+    margin-left: 0.2rem;
+    font-weight: bold;
+  }
+  .passwordlabel {
+    font-size: 13px;
+    margin-left: 0.2rem;
+    font-weight: bold;
+  }
+  .businesspasswordlabel {
+    font-size: 13px;
+    margin-left: 0.2rem;
+    font-weight: bold;
+  }
+  .firstnamelabel {
+    font-size: 13px;
+    margin-left: 2rem;
+    font-weight: bold;
+  }
+  .businessfirstnamelabel {
+    font-size: 13px;
+    margin-left: 2rem;
+    font-weight: bold;
+  }
+  .thirdinputs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+  }
+  .businessthirdinputs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.8rem;
+  }
+  .fourthinput {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+  }
+  .businessfourthinput {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.8rem;
+  }
+  .thirdinputs input {
+    width: 95%;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 1rem;
+  }
+  .businessthirdinputs input {
+    width: 97%;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 1rem;
+  }
+  .fourthinput input {
+    width: 95%;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 1rem;
+  }
+  .businessfourthinput input {
+    width: 97%;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 1rem;
+  }
+  .createaccountbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+    margin-left: -.5rem;
+  }
+  .createaccountbutton button {
+    padding: 0.4rem;
+    font-family: "Poppins";
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #005eff;
+    cursor: pointer;
+    width: 90%;
+    font-size: 13px;
+  }
+  .firstpersonalizedinner {
+    margin-left: 2rem;
+  }
+  .secondsecureinner {
+    margin-left: 2rem;
+  }
+  .thirdConvenientinner {
+    margin-left: 2rem;
+  }
+  .firstpersonalizedinner h2,
+  .secondsecure h2,
+  .thirdConvenient h2 {
+    font-size: 18px;
+    margin-left: 0.5rem;
+  }
+  .firstpersonalizedinner p,
+  .secondsecure p,
+  .thirdConvenient p {
+    font-size: 11px;
+    color: gray;
+  }
+  .secondsecure {
+    margin-top: 1rem;
+  }
+  .thirdConvenient {
+    margin-top: 1rem;
+  }
+  .helpcenter {
+    background-color: rgb(237, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .helpcenterbox {
+    height: 60px;
+    margin-bottom: 1rem;
+    background-color: rgb(237, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  .flexone {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .flextwo {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .flexthree {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .flexfour {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .flexfive {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .flexone p,
+  .flextwo p,
+  .flexthree p,
+  .flexfour,
+  p,
+  .flexfive p {
+    margin-left: 0.5rem;
+    font-size: 13px;
+  }
+  .affiliate-website-container {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  .affilliatewebsite {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .firstaffiliatebox {
+    width: 33.3333%;
+    border: 0.1px solid rgb(228, 221, 221);
+    padding: 0.5rem 0rem 0.2rem 0.5rem;
+  }
+  .secondaffiliatebox {
+    border: 0.1px solid rgb(228, 221, 221);
+    width: 33.3333%;
+    padding: 0.5rem 0rem 0.2rem 0.5rem;
+  }
+  .thirdaffiliatebox {
+    border: 0.1px solid rgb(228, 221, 221);
+    width: 33.3333%;
+    padding: 0.5rem 0rem 0.2rem 0.5rem;
+  }
+  .icons-cotainer {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0rem 2rem 0rem;
+  }
+  .iconsbox {
+    height: 40px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .f-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .flinks-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .f-links a {
+    font-size: 10px;
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .second-f-links {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .second-flinks-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+  }
+  .second-f-links a {
+    font-size: 10px;
+    text-decoration: none;
+    color: gray;
+  }
+  .footerlogo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .footerlogo img {
+    height: 28px;
+  }
+  .info {
+    color: gray;
+    font-size: 12px;
+  }
+  .sign-in-account-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+  }
+  .sign-in-account-btn button {
+    padding: 0.4rem;
+    font-family: "Poppins";
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    outline: none;
+    color: #fff;
+    background-color: #005eff;
+    cursor: pointer;
+    width: 92%;
+  }
+  
+  .signinaccountfirstheading {
+    color: #008938;
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .pleasesignIn {
+    font-size: 12px;
+    margin-left: 2rem;
+  }
+  .error-message {
+    color: red;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .error-messagesignup {
+    color: red;
+    margin-top: 1rem;
+  }
+  .businesserror-messagesignup {
+    color: red;
+    margin-top: 1rem;
+  }
+
+  #logoutuser{
+    display: none;
+  }
+  
+  /* Add Media Quesries */
+
+  @media screen and (max-width:1206px) {
+    .secondaccountheaderdiv{
+      display: none;
+    }
+  }
+  @media screen and (max-width:570px) {
+   .firstaccountheaderdiv img{
+    height: 40px;
+   }
+  }
+  @media screen and (max-width:505px) {
+    .firstaccountheaderdiv img{
+     height: 30px;
+     margin-left: -1rem;
+    }
+   }
+  @media screen and (max-width:465px) {
+    .selectstore {
+      margin-left: .5rem;
+      color: #008938;
+    }
+    .firstaccountheaderdiv img{
+      height: 30px;
+      width: 100px;
+      margin-left: -1rem;
+     }
+     #deliver{
+      margin-left: -.8rem;
+     }
+   }
+
+   @media screen and (max-width:1488px) {
+    .secondinput{
+      margin-left: 1.2rem;
+      margin-top: .5rem;
+
+    }
+    .secondinput input{
+      width: 96%;
+    }
+    .firsttwoinputs {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 1.4rem;
+      margin-left: -.5rem;
+    }
+    .firstinput input{
+      width: 92%;
+    }
+    .thirdinputs input{
+      width: 96%;
+    }
+    .fourthinput input{
+      width: 96%;
+    }
+    .createaccountbutton{
+      margin-left: -.2rem;
+      width: 102%;
+    }
+   }
+
+   @media screen and (max-width:1459px) {
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 500px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+   @media screen and (max-width:1347px) {
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 400px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+   @media screen and (max-width:1232px) {
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 300px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+   @media screen and (max-width:1136px) {
+    .hidebox{
+      display: none;
+    }
+    .hamburgerbox{
+      display: block;
+      margin-left: 1rem;
+    }
+    .divandinput {
+      margin-left: 2rem;
+    }
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 500px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+   @media screen and (max-width:944px) {
+    .hidebox{
+      display: none;
+    }
+    .hamburgerbox{
+      display: block;
+      margin-left: 1rem;
+    }
+    .divandinput {
+      margin-left: 2rem;
+    }
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 400px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+
+   @media screen and (max-width:836px) {
+    .hidebox{
+      display: none;
+    }
+    .hamburgerbox{
+      display: block;
+      margin-left: 2rem;
+    }
+    .divandinput {
+      margin-left: 2rem;
+    }
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 300px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+   @media screen and (max-width:744px) {
+    .hidebox{
+      display: none;
+    }
+    .hamburgerbox{
+      display: block;
+      margin-left: 2rem;
+    }
+    .divandinput {
+      margin-left: 2rem;
+    }
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 250px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+   @media screen and (max-width:690px) {
+    .hidebox{
+      display: none;
+    }
+    .hamburgerbox{
+      display: block;
+      margin-left: 2rem;
+    }
+    .divandinput {
+      margin-left: 2rem;
+    }
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 200px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+   @media screen and (max-width:636px) {
+    .hidebox{
+      display: none;
+    }
+    .hamburgerbox{
+      display: block;
+      margin-left: -1rem;
+    }
+    .divandinput {
+      margin-left: 1rem;
+    }
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 200px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+   
+   @media screen and (max-width:566px) {
+    .hidebox{
+      display: none;
+    }
+    .hamburgerbox{
+      display: block;
+      margin-left: -1rem;
+    }
+    .divandinput {
+      margin-left: 1rem;
+    }
+    .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 150px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+   }
+
+     
+   @media screen and (max-width:508px) {
+     .departmentsall{
+      display: none;
+     }
+     .divandinput input {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      font-family: "Poppins";
+      width: 300px;
+      border-radius: 20px;
+    }
+   }
+
+   @media screen and (max-width:431px) {
+    .departmentsall{
+     display: none;
+    }
+    .divandinput input {
+     border: none;
+     outline: none;
+     padding: 0.5rem 1rem;
+     font-size: 13px;
+     font-family: "Poppins";
+     width: 200px;
+     border-radius: 20px;
+   }
+   .hamburgerbox{
+    display: block;
+    margin-left: -.5rem;
+  }
+  }
+
+  @media screen and (max-width:989px) {
+    .twomaindivsincreateaccount {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem 2rem 2rem 2rem;
+      height: 550px;
+      width: 90%;
+    }
+
+    .secondcreateaccount{
+      margin: 2rem 0rem 2rem 0rem;
+    }
+    .firstpersonalized , .secondsecure , .thirdConvenient{
+      display: flex;
+      flex-direction: column;
+    }
+    .accountbox {
+      border: 1px solid gray;
+      height: 600px;
+      margin-left: 2rem;
+      width: 87%;
+      padding: 0rem 2rem;
+    }
+    .firstpersonalizedinner , .secondsecureinner , .thirdConvenientinner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .firstpersonalizedinner p , .secondsecureinner p , .thirdConvenientinner p{
+      text-align: center;
+    }
+    .firstpersonalizedinner h2 , .secondsecureinner h2 , .thirdConvenientinner h2{
+      margin-left: -2rem;
+    }
+    .helpcentercontainer{
+      margin-top: 30rem;
+    }
+    .firstcreateaccount {
+      width: 120%;
+      margin-left: 5rem;
+    }
+   
+    
+  
+    .firstinput input{
+      width: 98%;
+    }
+    .secondinput input{
+      width: 100%;
+    }
+    .thirdinputs input{
+      width: 100%;
+    }
+    .fourthinput input{
+      width: 100%;
+    }
+    .createaccountbutton button{
+      margin-left: 1rem;
+    }
+    .createaccountbutton{
+      margin-left: -2rem;
+      width: 108%;
+    }
+    .createaccounmtbtn{
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width:852px) {
+    .createaccountbutton button{
+      margin-left: 1.8rem;
+    }
+  }
+
+  @media screen and (max-width:732px) {
+    .createaccountbutton button{
+      margin-left: 2rem;
+      width: 90%;
+    }
+    .firstinput input{
+      width: 97%;
+    }
+  }
+
+  @media screen and (max-width:646px) {
+    .createaccountbutton button{
+      margin-left: 2rem;
+      width: 88%;
+    }
+  }
+
+  @media screen and (max-width:525px) {
+    .createaccountbutton button{
+      margin-left: 3rem;
+      width: 87%;
+    }
+  }
+
+  @media screen and (max-width:629px) {
+    .accountbox {
+      border: 1px solid gray;
+      height: 600px;
+      margin-left: -2rem;
+      width: 85%;
+      padding: 0rem 2rem;
+    }
+  }
+
+
+
+  @media screen and (max-width:488px) {
+     .MENARDS_Text{
+      font-size: 14px;
+      margin-top: 1rem;
+     }
+     .requiredfield{
+      margin-top: .8rem;
+     }
+     .accounttype{
+      margin-top: .2rem;
+     }
+     .signinbtn{
+       font-size: 13px;
+     }
+     .createaccounmtbtn{
+      font-size: 13px;
+     }
+  }
+
+  @media screen and (max-width:428px) {
+    .MENARDS_Text{
+      margin-left: -.5rem;
+    }
+    .signinaccountfirstheading{
+      margin-left: -.3rem;
+    }
+    .sign-in-account-btn{
+      margin-left: -1rem;
+    }
+    .pleasesignIn{
+      margin-left: -.3rem;
+      margin-top: .5rem;
+    }
+    .requiredfield{
+      margin-left: -.5rem;
+     }
+     .accounttype{
+      margin-left: -.5rem;
+     }
+     .firstinput{
+      width: 108%;
+      margin-left: -1.8rem;
+    }
+    .secondinput{
+      margin-left: -.5rem;
+      margin-top: .5rem;
+
+    }
+    .secondinput input{
+      width: 97%;
+    }
+    .thirdinputs{
+      margin-left: -.5rem;
+      width: 102%;
+    }
+    .fourthinput{
+      margin-left: -.5rem;
+      width: 102%;
+    }
+    .createaccountbutton button{
+      margin-left: 1.2rem;
+      width: 92%;
+    }
+  }
+
+  @media screen and (max-width:400px) {
+    .MENARDS_Text{
+      margin-left: 0rem;
+      font-size: 12px;
+    }
+    .createaccounmtbtn{
+      font-size: 12px;
+    }
+    .createaccountbutton button{
+      width: 95%;
+      margin-left: -.4rem;
+    }
+  }
+  @media screen and (max-width:575px) {
+    .firstpersonalizedinner , .secondsecureinner , .thirdConvenientinner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 130%;
+    }
+  }
+  @media screen and (max-width:444px) {
+    .firstpersonalizedinner , .secondsecureinner , .thirdConvenientinner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 150%;
+    }
+  }
+  @media screen and (max-width:414px) {
+    .firstpersonalizedinner , .secondsecureinner , .thirdConvenientinner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 180%;
+    }
+  }
+
+  @media screen and (max-width:365px) {
+    .firstpersonalizedinner , .secondsecureinner , .thirdConvenientinner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 210%;
+    }
+  }
+
+  @media screen and (max-width:915px) {
+     #hideIcons{
+      display: none;
+     }
+  }
+  @media screen and (max-width:571px) {
+     #hideIcons{
+      display: none;
+     }
+    .info{
+      display: none;
+    }
+    .boldHeadings{
+      font-size: 10px;
+    }
+    .help_center_heading1{
+      font-size: 9px;
+    }
+    .iconsbox {
+      height: 40px;
+      width: 45%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .flexone p, .flextwo p, .flexthree p, .flexfour, p, .flexfive p{
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width:420px) {
+    .iconsbox {
+      height: 40px;
+      width: 65%;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    .f-links{
+      margin-left: -5rem;
+    }
+  }
+  @media screen and (max-width:314px) {
+    .iconsbox {
+      height: 40px;
+      width: 75%;
+      display: flex;
+      justify-content: space-between;
+    }
+   
+  }
+  @media screen and (max-width:350px) {
+    .f-links{
+      margin-left: -7rem;
+    }
+    .boldHeadings{
+      font-size: 6px;
+    }
+    .firstaffiliatebox {
+      width: 30%;
+      border: 0px solid rgb(228, 221, 221);
+      padding: 0.5rem 0rem 0.2rem 0.5rem;
+    }
+    .secondaffiliatebox {
+      border: 0px solid rgb(228, 221, 221);
+    }
+    .thirdaffiliatebox {
+      border: 0px solid rgb(228, 221, 221);
+      width: 33.3333%;
+    }
+  }
+
+  @media screen and (max-width:323px) {
+    .firstaffiliatebox {
+      width: 27%;
+      border: 0px solid rgb(228, 221, 221);
+      padding: 0.5rem 0rem 0.2rem 0.5rem;
+    }
+  }
+
+  @media screen and (max-width:346px) {
+    .flexone p, .flextwo p, .flexthree p, .flexfour, p, .flexfive p{
+      font-size: 8px;
+    }
+  }
+
+  @media screen and (max-width:381px) {
+    .signinbtn{
+      font-size: 10px;
+    }
+    .createaccounmtbtn{
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width:352px) {
+    .signinbtn{
+      font-size: 8px;
+    }
+    .createaccounmtbtn{
+      font-size: 8px;
+      width: 60%;
+    }
+    .secondsecureinner p , .thirdConvenient p , .firstpersonalized p {
+      font-size: 8px;
+    }
+    .secondsecureinner h2 , .thirdConvenient h2 , .firstpersonalized h2 {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width:322px) {
+    .createaccounmtbtn{
+      font-size: 9px;
+      width: 60%;
+    }
+  
+    
+  }
+
+  @media screen and (max-width:433px) {
+    .second-f-links {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  @media screen and (max-width:363px) {
+    .second-f-links {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  @media screen and (max-width:869px) {
+    .accountbox {
+      border: 1px solid gray;
+      height: 600px;
+      margin-left: 2rem;
+      width: 80%;
+      padding: 0rem 2rem;
+    }
+  }
+
+  @media screen and (max-width:579px) {
+      .accountbox {
+        border: 1px solid gray;
+        height: 600px;
+        margin-left: -1rem;
+        width: 90%;
+        padding: 0rem 2rem;
+      }
+    
+  }
+
+  
+  @media screen and (max-width:398px) {
+    .createaccountbutton button{
+      margin-left: 1.5rem;
+      width: 105%;
+    }
+    .secondinput input{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:593px) {
+    .accountbox {
+      border: 1px solid gray;
+      height: 600px;
+      margin-left: 0rem;
+      width: 85%;
+      padding: 0rem 2rem;
+    }
+  }
+
+  @media screen and (max-width:489px) {
+    .accountbox {
+      border: 1px solid gray;
+      height: 600px;
+      margin-left: -1rem;
+      width: 85%;
+      padding: 0rem 2rem;
+    }
+  }
+
+
+  @media screen and (max-width:412px) {
+    .secondinput input{
+      width: 101%;
+    }
+    .thirdinputs input{
+      width: 101%;
+    }
+  }
+
+
+  @media screen and (max-width:375px) {
+    .accountbox {
+      border: 1px solid gray;
+      height: 600px;
+      margin-left: -2rem;
+      width: 95%;
+      padding: 0rem 2rem;
+    }
+    .firstinput input{
+      width: 100%;
+    }
+    .secondinput input{
+      width: 103%;
+    }
+    .thirdinputs input{
+      width: 105%;
+    }
+    .fourthinput input{
+      width: 104%;
+    }
+    .createaccountbutton{
+      width: 115%;
+    }
+    .createaccounmtbtn{
+      width: 50%;
+    }
+  }
