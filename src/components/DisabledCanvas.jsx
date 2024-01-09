@@ -41,16 +41,16 @@ const DisabledCanvas = () => {
 
   const drawLine = (ctx, x1, y1, x2, y2, lineIndex) => {
     const length = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
-
+  
     if (Math.ceil(length) > 0) {
       const angle = Math.atan2(y2 - y1, x2 - x1);
-
+  
       // Set line color based on selection or properties
       const lineColor =
         selectedLineIndex === lineIndex
           ? "#009a3d"
           : lineProperties[lineIndex]?.color || "#91d2aa";
-
+  
       // Draw the line
       ctx.beginPath();
       ctx.moveTo(x1, y1);
@@ -58,46 +58,49 @@ const DisabledCanvas = () => {
       ctx.strokeStyle = lineColor;
       ctx.stroke();
       ctx.closePath();
-
+  
       // Draw circle at the start and end points
       ctx.beginPath();
       ctx.arc(x1, y1, 7, 0, 3 * Math.PI);
       ctx.fillStyle = "";
       ctx.closePath();
-
+  
       ctx.beginPath();
       ctx.arc(x2, y2, 7, 0, 3 * Math.PI);
       ctx.fillStyle = "";
       ctx.closePath();
-
+  
       // Calculate midpoint of the line
       const midX = (x1 + x2) / 2;
       const midY = (y1 + y2) / 2;
-
-      let circleWidth = lineProperties[lineIndex]?.width || 20;
+  
+      let circleWidth = 20; // Default width is 20 pixels
       let circleHeight = 20; // Initial height
-
+  
+      if (lineProperties[lineIndex]?.width !== undefined) {
+        // User entered a width, update the width to 30
+        circleWidth = 50;
+        circleHeight = 14;
+      }
+  
       // Draw a rotated ellipse at the midpoint with the specified width and height
       ctx.translate(midX, midY);
       ctx.rotate(angle);
       ctx.beginPath();
       ctx.ellipse(0, 0, circleWidth / 2, circleHeight / 2, 0, 0, 2 * Math.PI);
-
+  
       if (lineProperties[lineIndex]?.width !== undefined) {
         // User entered a width, update the height to 14
         ctx.fillStyle = "#4792d2";
-        circleHeight = 14;
-
-        // console.log("After Enter Width Circle Height: ", circleHeight);
       } else {
         ctx.fillStyle = "#cee0d5";
       }
-
+  
       ctx.fill();
       ctx.closePath();
       ctx.rotate(-angle);
       ctx.translate(-midX, -midY);
-
+  
       if (lineProperties[lineIndex]?.width !== undefined) {
         ctx.fillStyle = "#000000";
         ctx.font = "bold 18px Arial";
@@ -112,6 +115,8 @@ const DisabledCanvas = () => {
       }
     }
   };
+  
+  
 
   // Place Button Click
 
@@ -197,11 +202,11 @@ const DisabledCanvas = () => {
         setSecondModalVal(
           "Plz Enter the Width to Select the Fence Side"
         );
-      } else if(enterWidth < 20){
+      } else if(enterWidth < 1){
         setShowModal(true);
         setFirstModalVal("Selection Warning");
         setSecondModalVal(
-          "Atleast Add Width '20'"
+          "Atleast Add Width '1'"
         );
       } else if (enterWidth > length) {
         setShowModal(true);

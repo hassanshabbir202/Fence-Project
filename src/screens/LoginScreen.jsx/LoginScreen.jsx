@@ -86,7 +86,7 @@ const LoginScreen = () => {
             
             setshoModal(true)
             setModalHeading("signIn failure")
-            setModalContnt("user not found ! ")
+            setModalContnt("Wrong Password");
             const errorData = await res.json();
             console.error(errorData.message); // Log the error message from the server
             // You can display an error message to the user or handle the error as needed.
